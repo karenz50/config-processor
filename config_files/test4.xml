@@ -1,0 +1,16 @@
+<config>
+    <oracle>
+        <host>mytesthost</host>
+        <user>oracle</user>
+        <password>i_love_oracle</password>
+        <database>mydb</database>
+    </oracle>
+    <connections>
+        <user_connection>
+            <li>connection_str1</li>
+            <li>connection_str2</li>
+            <li>connection_str3</li>
+        </user_connection>
+        <use_connection_pool value="true" />
+    </connections>
+</config>
